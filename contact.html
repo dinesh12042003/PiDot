@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | PI DOT</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/themes.css" id="theme-style">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="light-theme">
+    <!-- Header (Same as homepage) -->
+    <div class="announcement-bar">
+        <div class="container">
+            <p>🚀 Now offering free consultations! <a href="contact.html">Book now →</a></p>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="assets/logos/pidot-logo.png" alt="PI DOT Logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="solutions.html">Solutions</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li class="dropdown">
+                        <a href="#">Products <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="genesis.html">Genesis</a>
+                            <a href="edusphere.html">Edusphere</a>
+                            <a href="axiom.html">Axiom</a>
+                        </div>
+                    </li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button id="theme-toggle" class="theme-toggle">
+                    <span class="theme-icon">🌓</span>
+                </button>
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu (Same as homepage) -->
+    <div class="mobile-menu" id="mobile-menu">
+        <!-- Content same as homepage -->
+    </div>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <div class="container">
+            <div class="contact-hero-content">
+                <h1 class="animate-on-scroll">Let's Build Something Great Together</h1>
+                <p class="animate-on-scroll">Get in touch with our team to discuss how PI DOT can transform your organization</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Main -->
+    <section class="contact-main">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-form animate-on-scroll">
+                    <h2>Send Us a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a topic</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="sales">Sales Inquiry</option>
+                                <option value="support">Technical Support</option>
+                                <option value="partnership">Partnership Opportunity</option>
+                                <option value="careers">Careers</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="cta-button primary">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="contact-info animate-on-scroll">
+                    <div class="info-card">
+                        <h3>Contact Information</h3>
+                        <ul class="contact-details">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <strong>Headquarters</strong>
+                                    <p>Hyderabad, Telangana, India</p>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <strong>Phone</strong>
+                                    <p>+91 0154 77610</p>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <strong>Email</strong>
+                                    <p>info@pidot.in</p>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <strong>Working Hours</strong>
+                                    <p>Monday - Friday: 9:00 - 18:00</p>
+                                    <p>Saturday: 10:00 - 14:00</p>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="social-links">
+                            <h4>Follow Us</h4>
+                            <div class="social-icons">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section animate-on-scroll">
+        <div class="container">
+            <h2>Our Locations</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.258418428813!2d78.36781141487684!3d17.447859988039834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93dc8c5d69df%3A0x19688ab4c8f12c1!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1623939668397!5m2!1sen!2sin" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="contact-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Schedule a Consultation</h2>
+                <p>Book a meeting with our experts to discuss your specific needs</p>
+                <a href="#" class="cta-button primary">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as homepage) -->
+    <footer>
+        <!-- Footer content same as homepage -->
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/theme-switcher.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/contact-form.js"></script>
+</body>
+</html>

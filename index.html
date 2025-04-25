@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PI DOT | Empowering Innovation Through Technology</title>
+    <meta name="description" content="PI DOT transforms businesses through innovative solutions in education, automation, and talent development">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/themes.css" id="theme-style">
+    <link rel="stylesheet" href="css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="light-theme">
+    <!-- Top Announcement Bar -->
+    <div class="announcement-bar">
+        <div class="container">
+            <p>🚀 Now offering free consultations for new clients! <a href="contact.html">Book now →</a></p>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo" style="float: left; width: 130px;">
+                <img src="assets/logos/pidot-logo.svg" alt="PI DOT Logo">
+            </a>
+            <nav class="navbar">
+                <ul style="float: right;">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="solutions.html">Solutions</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li class="dropdown">
+                        <a href="#">Products <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="genesis.html">Genesis</a>
+                            <a href="edusphere.html">Edusphere</a>
+                            <a href="axiom.html">Axiom</a>
+                        </div>
+                    </li>
+                    <li><a href="customers.html">Customers</a></li>
+                    <li><a href="partners.html">Partners</a></li>
+                    <li><a href="insights.html">Insights</a></li>
+                    <li><a href="about.html">About</a></li>
+                
+                <div class="header-actions" style="padding-left: 20px;">
+                    <a href="contact.html" class="header-cta">Contact Us</a>
+                    <button id="theme-toggle" class="theme-toggle">
+                        <span class="theme-icon">🌓</span>
+                    </button>
+                </div>
+            </ul>
+            </nav>
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle" style="float: right;">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-header">
+            <img src="assets/logos/pidot-logo.svg" alt="PI DOT Logo">
+            <button class="mobile-menu-close" id="mobile-menu-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="solutions.html">Solutions</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li class="mobile-dropdown">
+                <a href="#">Products <i class="fas fa-chevron-down"></i></a>
+                <div class="mobile-dropdown-content">
+                    <a href="genesis.html">Genesis</a>
+                    <a href="edusphere.html">Edusphere</a>
+                    <a href="axiom.html">Axiom</a>
+                </div>
+            </li>
+            <li><a href="customers.html">Customers</a></li>
+            <li><a href="partners.html">Partners</a></li>
+            <li><a href="insights.html">Insights</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-video">
+            <video autoplay muted loop>
+                <source src="assets/videos/hero-background.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animate-on-scroll">Transforming Futures Through Innovation</h1>
+                <p class="animate-on-scroll">Empowering businesses and individuals with cutting-edge solutions in education, automation, and talent development</p>
+                <div class="hero-buttons animate-on-scroll">
+                    <a href="solutions.html" class="cta-button primary">Explore Solutions</a>
+                    <a href="contact.html" class="cta-button secondary">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="arrow-down"></div>
+        </div>
+    </section>
+
+    <!-- Trusted By Section -->
+    <section class="trusted-by">
+        <div class="container">
+            <p>Trusted by leading organizations worldwide</p>
+            <div class="logo-grid">
+                <img src="assets/logos/AIESEC.svg" alt="Client Logo" loading="lazy">
+                <img src="assets/logos/Rajthali.svg" alt="Client Logo" loading="lazy">
+                <img src="assets/logos/pidot-logo.svg" alt="Client Logo" loading="lazy">
+                <img src="assets/logos/thinespo.svg" alt="Client Logo" loading="lazy">
+                <img src="assets/logos/client5.png" alt="Client Logo" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Overview -->
+    <section class="solutions-overview">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Comprehensive Solutions</h2>
+                <p>Tailored to meet your unique business challenges and drive sustainable growth</p>
+            </div>
+            <div class="solutions-grid">
+                <div class="solution-card animate-on-scroll">
+                    <div class="solution-icon">
+                        <img src="assets\logos\Edusphere.svg" alt="">
+                        <!-- <i class="fas fa-graduation-cap"></i> -->
+                    </div>
+                    <h3>Education Transformation</h3>
+                    <p>Revolutionizing learning experiences through technology and innovative methodologies</p>
+                    <a href="edusphere.html" class="learn-more">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="solution-card animate-on-scroll">
+                    <div class="solution-icon">
+                        <img src="assets\logos\Genesis.svg" alt="">
+                        <!-- <i class="fas fa-briefcase"></i> -->
+                    </div>
+                    <h3>Talent Development</h3>
+                    <p>Bridging the gap between academia and industry with corporate-led training programs</p>
+                    <a href="genesis.html" class="learn-more">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="solution-card animate-on-scroll">
+                    <div class="solution-icon">
+                        <img src="assets\logos\Axiom.svg" alt="">
+                        <!-- <i class="fas fa-robot"></i> -->
+                    </div>
+                    <h3>Business Automation</h3>
+                    <p>Streamlining operations and enhancing efficiency with AI-driven solutions</p>
+                    <a href="axiom.html" class="learn-more">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item animate-on-scroll">
+                    <div class="stat-number" data-count="10">0</div>
+                    <div class="stat-label">Active Clients</div>
+                </div>
+                <div class="stat-item animate-on-scroll">
+                    <div class="stat-number" data-count="314">0</div>
+                    <div class="stat-label">Million Impact</div>
+                </div>
+                <div class="stat-item animate-on-scroll">
+                    <div class="stat-number" data-count="25">0</div>
+                    <div class="stat-label">Global Partners</div>
+                </div>
+                <div class="stat-item animate-on-scroll">
+                    <div class="stat-number" data-count="98">0</div>
+                    <div class="stat-label">% Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies -->
+    <section class="case-studies">
+        <div class="container">
+            <div class="section-header">
+                <h2>Success Stories</h2>
+                <p>Discover how we've helped organizations achieve remarkable results</p>
+            </div>
+            <div class="case-study-slider">
+                <div class="case-study">
+                    <div class="case-study-image">
+                        <img src="assets\images\EduSuccess.jpg" alt="Case Study" loading="lazy">
+                    </div>
+                    <div class="case-study-content">
+                        <span class="case-study-category">Education Sector</span>
+                        <h3>Transforming Rural Education in India</h3>
+                        <p>How we implemented our Edusphere solution to improve learning outcomes for 50,000 students across 200 schools</p>
+                        <a href="#" class="read-case-study">Read Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="case-study">
+                    <div class="case-study-image">
+                        <img src="assets\images\GenSuccess.jpg" alt="Case Study" loading="lazy">
+                    </div>
+                    <div class="case-study-content">
+                        <span class="case-study-category">Corporate Training</span>
+                        <h3>Upskilling Workforce for Tech Giant</h3>
+                        <p>Our Genesis program helped a Fortune 500 company reduce onboarding time by 40% while improving retention</p>
+                        <a href="#" class="read-case-study">Read Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <p>Hear from organizations that have transformed with our solutions</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>PI DOT's Genesis program completely transformed our talent acquisition strategy. The quality of candidates and their industry readiness exceeded our expectations.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assets/images/testimonial1.jpg" alt="Client" loading="lazy">
+                        <div class="author-info">
+                            <h4>Rahul Sharma</h4>
+                            <span>HR Director, TechSolutions Inc.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>Implementing Edusphere in our school network has dramatically improved student engagement and learning outcomes. The technology integration is seamless.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assets/images/testimonial2.jpg" alt="Client" loading="lazy">
+                        <div class="author-info">
+                            <h4>Priya Patel</h4>
+                            <span>Principal, Global Public School</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Organization?</h2>
+                <p>Schedule a consultation with our experts to discover how PI DOT can help you achieve your goals</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="cta-button primary">Get Started</a>
+                    <a href="solutions.html" class="cta-button secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Insights -->
+    <section class="latest-insights">
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest Insights</h2>
+                <p>Explore our thought leadership and industry perspectives</p>
+            </div>
+            <div class="insights-grid">
+                <article class="insight-card">
+                    <div class="insight-image">
+                        <img src="assets/images/blog1.jpg" alt="Insight" loading="lazy">
+                        <span class="insight-category">Education</span>
+                    </div>
+                    <div class="insight-content">
+                        <h3><a href="#">The Future of Experiential Learning in India</a></h3>
+                        <p class="insight-excerpt">How technology is reshaping education delivery and student engagement in the post-pandemic world...</p>
+                        <div class="insight-meta">
+                            <span class="date">June 15, 2023</span>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="insight-card">
+                    <div class="insight-image">
+                        <img src="assets/images/blog2.jpg" alt="Insight" loading="lazy">
+                        <span class="insight-category">Automation</span>
+                    </div>
+                    <div class="insight-content">
+                        <h3><a href="#">AI-Driven Automation for SMEs</a></h3>
+                        <p class="insight-excerpt">Practical ways small and medium enterprises can leverage automation to compete with larger players...</p>
+                        <div class="insight-meta">
+                            <span class="date">May 28, 2023</span>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="insight-card">
+                    <div class="insight-image">
+                        <img src="assets/images/blog3.jpg" alt="Insight" loading="lazy">
+                        <span class="insight-category">Talent</span>
+                    </div>
+                    <div class="insight-content">
+                        <h3><a href="#">Bridging the Industry-Academia Gap</a></h3>
+                        <p class="insight-excerpt">Why corporate-led education programs are essential for developing workforce-ready graduates...</p>
+                        <div class="insight-meta">
+                            <span class="date">April 10, 2023</span>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="view-all">
+                <a href="insights.html" class="view-all-button">View All Insights <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h3>Stay Updated</h3>
+                    <p>Subscribe to our newsletter for the latest insights, news, and updates</p>
+                </div>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="assets/logos/pidot-logo-white.svg" alt="PI DOT Logo" width="150px"> 
+                    </div>
+                    <p class="footer-about">EMPOWER ELEVETE EXCELERATE</p>
+                    <!-- PI DOT is where empowerment meets innovation, and where acceleration shapes the future. We're committed to driving people, businesses, and communities beyond conventional boundaries. -->
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Solutions</h4>
+                    <ul>
+                        <li><a href="edusphere.html">Edusphere</a></li>
+                        <li><a href="genesis.html">Genesis</a></li>
+                        <li><a href="axiom.html">Axiom</a></li>
+                        <li><a href="solutions.html">All Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="leadership.html">Leadership</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="newsroom.html">Newsroom</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="insights.html">Insights</a></li>
+                        <li><a href="case-studies.html">Case Studies</a></li>
+                        <li><a href="whitepapers.html">Whitepapers</a></li>
+                        <li><a href="webinars.html">Webinars</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Hyderabad, Telangana, India</li>
+                        <li><i class="fas fa-phone"></i> +91 0154 77610</li>
+                        <li><i class="fas fa-envelope"></i> info@pidot.in</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-left">
+                    <p>&copy; 2025 BMEEX Business Solutions LLP. All rights reserved.</p>
+                </div>
+                <div class="footer-bottom-right">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="cookies.html">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/theme-switcher.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
