@@ -1,0 +1,88 @@
+/* Light Theme (default) */
+.light-theme {
+    --primary-color: #FFB13B;
+    --primary-dark: #F69507;
+    --primary-light: #FFD08A;
+    --text-dark: #0B0B0B;
+    --text-light: #FFFFFF;
+    --text-gray: #AAAAAA;
+    --bg-light: #FFFFFF;
+    --bg-dark: #0B0B0B;
+    --card-bg: #F5F5F5;
+    
+    /* Product Colors */
+    --genesis-color: #56848C;
+    --genesis-dark: #122E32;
+    --edusphere-color: #38B6FF;
+    --edusphere-dark: #00A3FF;
+    --axiom-color: #0B0B0B;
+    --axiom-dark: #333333;
+  }
+  
+  /* Dark Theme */
+  .dark-theme {
+    --primary-color: #FFB13B;
+    --primary-dark: #F69507;
+    --primary-light: #FFD08A;
+    --text-dark: #FFFFFF;
+    --text-light: #ffffff;
+    --text-gray: #AAAAAA;
+    --bg-light: #0B0B0B;
+    --bg-dark: #FFFFFF;
+    --card-bg: #1A1A1A;
+    
+    /* Product Colors (same as light theme) */
+    --genesis-color: #56848C;
+    --genesis-dark: #122E32;
+    --edusphere-color: #38B6FF;
+    --edusphere-dark: #00A3FF;
+    --axiom-color: #0B0B0B;
+    --axiom-dark: #333333;
+  }
+  
+  /* Dark Theme Specific Adjustments */
+  .dark-theme header {
+    background-color: var(--bg-light);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .dark-theme .solution-card,
+  .dark-theme .testimonial,
+  .dark-theme .case-study,
+  .dark-theme .insight-card {
+    background-color: #222222;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+  
+  .dark-theme .dropdown-content {
+    background-color: #222222;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+  
+  .dark-theme .mobile-menu {
+    background-color: #222222;
+  }
+  
+  .dark-theme .stats-section {
+    background-color: var(--primary-dark);
+    color: var(--text-light);
+  }
+  
+  .dark-theme .trusted-by {
+    background-color: #111111;
+  }
+  
+  .dark-theme .newsletter {
+    background-color: #111111;
+  }
+  
+  .dark-theme .footer-col ul li a,
+  .dark-theme .contact-info li,
+  .dark-theme .footer-about {
+    opacity: 0.8;
+  }
+  
+  .dark-theme .footer-col ul li a:hover,
+  .dark-theme .contact-info li:hover {
+    opacity: 1;
+  }
